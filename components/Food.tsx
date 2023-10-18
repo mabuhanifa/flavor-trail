@@ -1,14 +1,13 @@
-import React from "react";
 import { BiSolidHeart } from "react-icons/bi";
 import { GoLocation } from "react-icons/go";
 
-export default function Food({ food }:{food:any}) {
+export default function Food({ food }: { food: any }) {
   return (
     <div
       key={food.id}
       className="bg-white p-2.5 rounded-2xl max-w-[400px] mx-auto shadow-2xl group text-gray-700"
     >
-      <div className="flex justify-center items-center relative">
+      <div className="flex justify-between items-center relative">
         <img
           src={food.img}
           alt={food.name}
