@@ -5,13 +5,13 @@ export default function Food({ food }: { food: any }) {
   return (
     <div
       key={food.id}
-      className="bg-white p-2.5 rounded-2xl max-w-[400px] mx-auto shadow-2xl group text-gray-700"
+      className="bg-white p-2.5 rounded-2xl sm:max-w-[400px] mx-auto shadow-2xl group text-gray-700"
     >
       <div className="flex justify-between items-center relative">
         <img
           src={food.img}
           alt={food.name}
-          className="w-96 h-72 object-cover rounded-xl"
+          className="sm:w-96 sm:h-72 object-cover rounded-xl"
         />
         <button className="flex justify-center items-center absolute top-3 right-3 h-10 w-10 bg-white/[.75] rounded-full">
           <BiSolidHeart color="red" size={20} className="text-white" />

@@ -4,7 +4,7 @@ import Food from "./Food";
 
 export default function Foods() {
   return (
-    <div className="px-20 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+    <div className="px-2 sm:px-5 lg:px-16 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
       {data.map((food, index) => (
         <AnimatedProduct key={food.id} index={index} food={food} />
       ))}
