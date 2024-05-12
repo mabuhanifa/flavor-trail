@@ -1,1 +1,9 @@
-export const resolvers = {};
+export const resolvers = {
+  Query: {
+    hello: () => {
+      return "Hello World";
+    },
+  },
+
+  //   Mutation: {},
+};

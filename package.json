@@ -11,7 +11,7 @@
   "dependencies": {
     "@apollo/client": "^3.8.6",
     "@apollo/server": "^4.9.4",
-    "@as-integrations/next": "^2.0.2",
+    "@as-integrations/next": "^3.0.0",
     "@prisma/client": "^5.4.2",
     "@reduxjs/toolkit": "^1.9.7",
     "graphql": "^16.8.1",
